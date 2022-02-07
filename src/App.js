@@ -1,11 +1,11 @@
-import React from "react";
-import './App.css';
+import { Page } from "./pages";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div className="w-full h-full flex items-center justify-center">
+      <Page />
     </div>
   );
-}
+};
 
 export default App;
